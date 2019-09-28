@@ -26,6 +26,18 @@
     float: left;
     
 }
+
+a {
+    color: #cccccc;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #cccccc;
+    background-color: transparent;
+    text-decoration: underline;
+}
 .sideboxlinks{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50%;
@@ -69,7 +81,7 @@
     border-top: 60px solid #cccccc;
     border-left: 480px solid #cccccc;
     border-right: 480px solid #cccccc;
-    border-bottom: 200px solid #cccccc;
+    border-bottom: 500px solid #cccccc;
     z-index: 1;
 
 }
@@ -101,29 +113,68 @@
 }
 
 .label-1{
-    top: 280px;
+    top: 300px;
+    left: 40px
 }
 .label-2{
-    top: 280px;
-    left: 330px;
+    top: 300px;
+    left: 370px;
 }
 
 .label-3{
-    top: 280px;
-    left: 660px;
+    top: 300px;
+    left: 700px;
 
 }
 
 .label-4{
-    top: 580px;
+    top: 600px;
+    left: 40px
 }
 
 .label-5{
-    top: 580px;
-    left: 330px;
+    top: 600px;
+    left: 370px;
 }
 
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: lightgray;
+  }
 
+input[type=submit],select{
+    width: 140px;
+    height: 50px;
+    padding: 12px 20px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    border: 1px solid #cccccc;
+
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    resize: none;
+}
+.textbox{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+
+}
 
 .footer{
     position: relative;
@@ -137,7 +188,8 @@
     float: left;
     z-index: 2;
     margin-left: -10px;
-    margin-top: 1000px;
+    
+    margin-top: 1200px;
     font-size: 50%;
 }
 h1{
@@ -147,6 +199,7 @@ h1{
     margin: 35px;
     padding-bottom: 20px;
     border-bottom: 2px solid #cccccc;
+    font-weight: bold;
 }
 
 p{
