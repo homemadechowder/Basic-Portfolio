@@ -10,7 +10,7 @@
 
 ## About
 
-Th header was done by creating a header class to put all the header stuff: My name, about | portfolio | contact in. A made class for the Your Name box and 2 classes for the about | portfolio | contact. (Though I realized I could just make 1 class and just slightly tweak the last one so it doesn't have a border-right). I then used a border-bottom as a separator. I adjusted the margins so it looks the same as the assigment description. 
+Th header was done by creating a header class to put all the header stuff: My name, about | portfolio | contact in. I made a class for the Your Name box and 2 classes for the about | portfolio | contact. (Though I realized I could just make 1 class and just slightly tweak the last one so it doesn't have a border-right). I then used a border-bottom as a separator. I adjusted the margins so it looks the same as the assigment description. 
 
 I then made another box called content-box which will be also used in the next 2 pages for the center section. I assigned absolute to the contentbox's position because I didn't want it to be affected much, then I was able to create h1 and p classes to better format the text and image. I used margins and paddings so that it comes out to fit assignment descriptions. 
 
